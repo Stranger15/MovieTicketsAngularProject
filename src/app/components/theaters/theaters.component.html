@@ -1,0 +1,20 @@
+<body>
+    <app-navbar></app-navbar>
+    <div class="theaterpage">
+        <div class="item">
+            <div class="container">
+                <div class="selection">
+                    <div class="list-group">
+                        <div class="list-group-item list-group-item-action-head"> Select Theatre </div>
+                        <div class="list-group-item list-group-item-action" *ngFor="let obj of theatreNamesObject">
+                            <div (click)="setTheatreName(obj)">{{obj}}</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="class">
+            <app-movie-details [parentData]="theatreName"></app-movie-details>
+        </div>
+    </div>
+</body>

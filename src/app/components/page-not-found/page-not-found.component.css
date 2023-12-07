@@ -1,0 +1,17 @@
+.card {
+    margin-top: 70px;
+    width: px;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+}
+
+.btn1 {
+    padding: 10px 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    color: white;
+    background-color: teal;
+    text-decoration: none;
+    border-radius: 10px;
+}

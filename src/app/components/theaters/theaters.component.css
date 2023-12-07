@@ -1,0 +1,76 @@
+.list-group {
+  width: 300px;
+  margin: 80px;
+
+
+}
+
+.list-group-item-action-head {
+  background-color: teal;
+  font-weight: 700;
+
+}
+
+.ticketlogo {
+  margin-left: 80px;
+  margin-top: 60px;
+
+}
+
+header {
+  color: rgb(184, 179, 179);
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.ticketlogo img {
+  width: 20vh;
+  height: 20vh;
+  margin-right: -30px;
+  margin-left: -50px;
+}
+
+.ticketlogo h3 {
+  color: teal;
+  font: 60px Luminari, fantasy;
+  font-style: bold;
+  margin-top: -110px;
+  margin-left: 78px;
+}
+
+.theater h1 {
+  font: 200px;
+}
+
+.form-select {
+  width: 250px;
+  margin-top: 100px;
+  margin-left: 100px;
+  font: teal;
+}
+
+.theaterpage {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.item {
+  width: 40%;
+}
+
+.class {
+  width: 60%;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/hollywood/bullet_train.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat !important;
+  height: 160vh;
+}

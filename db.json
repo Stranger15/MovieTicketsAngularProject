@@ -1,0 +1,362 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signup": [
+    {
+      "email": "sandeep.singh3@mavenwave.com",
+      "password": "sandeep.singh3@mavenwave.com"
+    }
+  ],
+  "contactus": [
+    {
+      "fullname": "sandeep",
+      "email": "sandeep.singh3@mavenwave.com",
+      "msg": "nice to meet you",
+      "id": 1
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "msg": "",
+      "id": 2
+    },
+    {
+      "fullname": "",
+      "email": "",
+      "msg": "",
+      "id": 3
+    },
+    {
+      "fullname": "hui ",
+      "email": "hui",
+      "msg": "hui",
+      "id": 4
+    }
+  ],
+  "payment": [],
+  "theater": [
+    {
+      "tmovie": "",
+      "tname": "INOX Cinema",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 1
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 2
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 3
+    },
+    {
+      "tmovie": "",
+      "tname": "Stella Cinema",
+      "tdate": "2022-08-24",
+      "ttime": "22:15",
+      "seat": "",
+      "id": 4
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 5
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "13",
+      "id": 6
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "24",
+      "id": 7
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "29",
+      "id": 8
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "115,95,76",
+      "id": 9
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 10
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 11
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 12
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 13
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 14
+    },
+    {
+      "tmovie": "",
+      "tname": "Ceniworld Cardiff",
+      "tdate": "",
+      "ttime": "",
+      "seat": "26,47,67",
+      "id": 15
+    },
+    {
+      "tmovie": "",
+      "tname": "Odeon Cardiff",
+      "tdate": "2023-12-12",
+      "ttime": "12:12",
+      "seat": "45,46,47",
+      "id": 16
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "45,48,51",
+      "id": 17
+    },
+    {
+      "tmovie": "",
+      "tname": "Ceniworld Cardiff",
+      "tdate": "",
+      "ttime": "",
+      "seat": "",
+      "id": 18
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "27,28,29",
+      "id": 19
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "50,28,47",
+      "id": 20
+    },
+    {
+      "tmovie": "",
+      "tname": "VU2 Cardiff",
+      "tdate": "",
+      "ttime": "",
+      "seat": "12,31",
+      "id": 21
+    },
+    {
+      "tmovie": "",
+      "tname": "Ceniworld Cardiff",
+      "tdate": "",
+      "ttime": "19:44",
+      "seat": "83,67,92",
+      "id": 22
+    },
+    {
+      "tmovie": "",
+      "tname": "",
+      "tdate": "",
+      "ttime": "",
+      "seat": "29,48",
+      "id": 23
+    },
+    {
+      "tmovie": "",
+      "tname": "Ceniworld Cardiff",
+      "tdate": "2023-08-04",
+      "ttime": "21:08",
+      "seat": "45,46,47",
+      "id": 24
+    },
+    {
+      "tmovie": "",
+      "tname": "Everyman Cardiff",
+      "tdate": "2023-07-06",
+      "ttime": "21:18",
+      "seat": "26,27",
+      "id": 25
+    },
+    {
+      "tmovie": "",
+      "tname": "VU2 Cardiff",
+      "tdate": "2023-08-03",
+      "ttime": "23:18",
+      "seat": "47,48",
+      "id": 26
+    }
+  ],
+  "comments": [],
+  "now-playing": [
+    {
+      "id": 1,
+      "movie_name": "Bimbisara ",
+      "movie_type": "Adventure",
+      "movie_duration": "2 hr 26mn",
+      "movie_details": "Bimbisara is a 2022 Indian Telugu-language fantasy action film written and directed by debutant Mallidi Vassishta, and produced by N. T. R. Arts. It stars Nandamuri Kalyan Ram, Catherine Tresa, Samyuktha Menon and Prakash Raj.",
+      "rating": "6.6",
+      "img_url": "Bimbisara.jpg"
+    },
+    {
+      "id": 4,
+      "movie_name": "Maverick",
+      "movie_type": "Adventure",
+      "movie_duration": "1.5 hrs",
+      "movie_details": "Bret Maverick, needing money for a poker tournament, faces various comic mishaps and challenges, including a charming woman thief.",
+      "rating": "7",
+      "img_url": "maverick.webp"
+    },
+    {
+      "id": 3,
+      "movie_name": "Doctor Strange",
+      "movie_type": "Action, Adenture,Fantasy ",
+      "movie_duration": "2.3 hrs",
+      "movie_details": "While on a journey of physical and spiritual healing, a brilliant neurosurgeon is drawn into the world of the mystic arts.",
+      "rating": "7.5",
+      "img_url": "doctor_Strange.webp"
+    },
+    {
+      "id": 4,
+      "movie_name": "Maverick",
+      "movie_type": "Adventure",
+      "movie_duration": "1.5 hrs",
+      "movie_details": "Bret Maverick, needing money for a poker tournament, faces various comic mishaps and challenges, including a charming woman thief.",
+      "rating": "7",
+      "img_url": "maverick.webp"
+    },
+    {
+      "id": 5,
+      "movie_name": "First love",
+      "movie_type": "Romance",
+      "movie_duration": "1.3 hrs",
+      "movie_details": "The story is described as a poignant look at a young man's difficult entry into adulthood.",
+      "rating": "4.6",
+      "img_url": "first_love.webp"
+    },
+    {
+      "id": 6,
+      "movie_name": "The lost city ",
+      "movie_type": "Action-Adventure",
+      "movie_duration": "110 min",
+      "movie_details": "A reclusive romance novelist on a book tour with her cover model gets swept up in a kidnapping attempt that lands them both in a cutthroat jungle adventure.",
+      "rating": "6.1",
+      "img_url": "TheLostCityPoster.jpg"
+    }
+  ],
+  "upcoming-movies": [
+    {
+      "id": 1,
+      "movie_name": "The Lost Pearls",
+      "movie_type": "Adventure",
+      "movie_duration": "2 hrs",
+      "movie_details": "A story of two young Cambodian children who have been affected by land mines Near their neighboring village.",
+      "img_url": "TheLostPearl.jpg"
+    },
+    {
+      "id": 2,
+      "movie_name": "Don't Open the Door",
+      "movie_duration": "2 hr 9mn",
+      "movie_type": "Horror",
+      "movie_details": "A Family Move into a house and discover not all is what it seems with the doors around the building",
+      "img_url": "TheLostPearl.jpg"
+    },
+    {
+      "id": 3,
+      "movie_name": "The Outsiders",
+      "movie_type": "Thriller",
+      "movie_duration": "2 hr",
+      "movie_details": "Josh and Nicole were planning on spending the day hiking in the remote forest in northern England, but their plans went awry when they ran into another hiker in the woods.",
+      "img_url": "The-Outsiders.jpg"
+    },
+    {
+      "id": 4,
+      "movie_name": "Corsage",
+      "movie_type": "Biography",
+      "movie_duration": "1h 53m",
+      "movie_details": "A fictional account of the later years of Empress Elisabeth of Austria. On Christmas Eve 1877, Elisabeth turns 40 and is officially deemed an old woman and starts trying to maintain her public image, once idolized for her beauty.",
+      "img_url": "first_love.webp"
+    },
+    {
+      "id": 3,
+      "movie_name": "The Outsiders",
+      "movie_type": "Thriller",
+      "movie_duration": "2 hr",
+      "movie_details": "Josh and Nicole were planning on spending the day hiking in the remote forest in northern England, but their plans went awry when they ran into another hiker in the woods.",
+      "img_url": "The-Outsiders.jpg"
+    },
+    {
+      "id": 6,
+      "movie_name": "Tar",
+      "movie_type": "Drama",
+      "movie_duration": "2h 38m",
+      "movie_details": "Set in the international world of classical music, the film centers on Lydia Tár. widely considered one of the greatest living composer/conductors and first-ever female chief conductor of a major German orchestra.",
+      "img_url": "Tar.jpg"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

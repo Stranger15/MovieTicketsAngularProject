@@ -1,0 +1,199 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,400;0,500;0,800;1,100;1,400;1,500&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  box-sizing: border-box;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+#iconbar {
+  color: white;
+  font-size: 2rem;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  opacity: 0;
+  visibility: hidden;
+}
+
+#iconbar:hover {
+  color: teal;
+}
+
+.latest-container .latest-inside .row {
+  display: flex;
+  flex-direction: column;
+}
+
+.main {
+  position: absolute;
+  color: white;
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.inside-main {
+  line-height: 2;
+}
+
+.inside-main h1 {
+  margin-top: 20px;
+  font: 40px Luminari, fantasy;
+}
+
+.inside-main p {
+  font-size: 15px;
+}
+
+span {
+  color: teal;
+  font-weight: bold;
+
+}
+
+.btn1 {
+  margin-top: 30px;
+}
+
+.btn1 a {
+  background-color: teal;
+  color: white;
+  padding: 10px 25px;
+  text-decoration: none;
+  border-radius: 30px;
+}
+
+.btn1 a:hover {
+  background: black;
+  color: teal;
+}
+
+.btn1 i {
+  color: black;
+  padding: 0px 10px;
+}
+
+.btn1 i:hover {
+  color: white;
+}
+
+.Mainposter {
+  margin-top: -200px;
+  margin-left: 400px;
+}
+
+.Mainposter img {
+  height: 400px;
+  float: left;
+  border-radius: 10px;
+
+}
+
+.latest-movies {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  margin-top: -550px;
+  padding: 0px 20px;
+}
+
+.latest-movies h1 {
+  font-size: 35px;
+  color: teal;
+
+}
+
+.latest-container {
+  float: left;
+  padding: 10px 10px;
+  margin-top: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+.latest-inside img {
+  width: 150px;
+  height: 160px;
+  cursor: pointer;
+  padding: 4px;
+  transition: all 500ms ease-in-out;
+}
+
+.latest-inside img:hover {
+  transform: scale(1.2);
+}
+
+.heading1 {
+  color: white;
+  line-height: 1.5;
+}
+
+.heading1 h4 {
+  font-size: 15px;
+  font-style: bold;
+  margin-left: 20px;
+}
+
+.heading1 h6 {
+  font-size: 14px;
+  margin-left: 20px;
+}
+
+.btn2 {
+  margin-top: -30px;
+  margin-left: 120px;
+}
+
+.btn2 a {
+  font-size: 13px;
+  text-decoration: none;
+  background: teal;
+  padding: 7px 7px;
+  border-radius: 10%;
+  color: white;
+
+}
+
+
+.imdb {
+  background: teal;
+  border-radius: 20px;
+  position: absolute;
+  padding: 10px 10px;
+  color: white;
+  margin-top: -80px;
+  margin-left: 120px;
+  font-weight: bolder;
+}
+
+
+
+@media(max-width:360px) {
+  .nav ul {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+} */
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/hollywood/bullet_train.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat !important;
+  height: 160vh;
+}
+
+h1 {
+  font-size: 20px;
+  color: teal;
+}

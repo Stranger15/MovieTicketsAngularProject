@@ -1,0 +1,26 @@
+.card {
+  margin-top: 70px;
+  width: 550px;
+  padding: 45px;
+  position: absolute;
+  top: 16%;
+  left: 30%;
+  font-weight: 700;
+}
+
+.btn {
+  margin-bottom: 2%;
+  background-color: teal;
+}
+
+h1 {
+  font-weight: 800;
+}
+
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url('/assets/hollywood/bullet_train.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat !important;
+  height: 100vh;
+}

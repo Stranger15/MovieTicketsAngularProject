@@ -1,0 +1,11 @@
+.font-effect-neon {
+  color: teal;
+  font: 36px Luminari, fantasy;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: teal;
+  color: black;
+  border-radius: 10px;
+}

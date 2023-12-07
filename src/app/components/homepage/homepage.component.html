@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Book my ticket</title>
+
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <app-navbar></app-navbar>
+
+  <div class="container">
+    <div class="row" *ngIf="movieList && movieList.length>0">
+      <h1> Now playing</h1>
+
+      <div class="col-sm-2" *ngFor="let movie of movieList" (click)="bookMovie(movie)">
+         <img src='{{"assets/hollywood/" + movie.img_url}}' alt="{{movie.movie_name}} " style="width: 187px">
+        <hr class="d-sm-none">
+      </div>
+
+    </div>
+    <br>
+
+    <div class="row" *ngIf="movieList && movieList.length>0">
+      <h1> Upcoming movies</h1>
+
+      <div class="col-sm-2" *ngFor="let movie of upcomingMovieList">
+        <img src='{{"assets/hollywood/" + movie.img_url}}' alt="{{movie.movie_name}} " style="width: 187px">
+        <hr class="d-sm-none">
+      </div>
+
+    </div>
+  </div>
+</body>
+
+</html>
